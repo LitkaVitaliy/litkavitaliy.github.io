@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 domain: litkavitaliy.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://litkavitaliy.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /litkavitaliy.github.io/html/index.html/      # place folder name if the site is served in a subfolder
+baseurl: /html/index.html/      # place folder name if the site is served in a subfolder
