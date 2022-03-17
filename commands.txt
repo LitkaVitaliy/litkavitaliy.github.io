@@ -1,0 +1,5 @@
+cd /d D:\универ\Информатика\Me\sem2\litkavitaliy.github.io
+git status
+git add *
+git commit -m "Message"
+git push origin
