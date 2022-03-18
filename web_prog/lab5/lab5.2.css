@@ -1,0 +1,39 @@
+#container{
+    border: solid 3px pink;
+    margin: 5px;
+    background-color: yellow;
+}
+
+#header{
+    border: solid 3px pink;
+    margin: 5px;
+    background-color: cyan;
+}
+
+#menu{
+    border: solid 3px pink;
+    margin: 5px;
+    /*background-color: cyan;*/
+    width: 25%;
+}
+
+#content{
+    border: solid 3px pink;
+    margin: 5px;
+    /*background-color: cyan;*/
+    width: 56.8%;
+}
+
+#footer{
+    border: solid 3px pink;
+    margin: 5px;
+    /*background-color: cyan;*/
+    width: 13%; 
+}
+
+
+.blocks{
+    background-color: gray;
+    padding: 5px;
+    float: left;
+}
