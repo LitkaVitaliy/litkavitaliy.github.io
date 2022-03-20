@@ -42,3 +42,10 @@
 	height:100px;
 	clear:both;
 }
+
+.text{
+    font-family: Arial;
+    font-size: 20px;
+    color: #443f3d;
+    text-decoration: none;
+}

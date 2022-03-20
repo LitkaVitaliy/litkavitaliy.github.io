@@ -1,3 +1,10 @@
 body{
 	background-color: grey;
 }
+
+.text{
+    font-family: Arial;
+    font-size: 20px;
+    color: #e9e1d5;
+    text-decoration: none;
+}

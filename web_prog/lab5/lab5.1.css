@@ -35,3 +35,10 @@
     margin-top:5px;
     margin-bottom:5px;
 }
+
+.text{
+    font-family: Arial;
+    font-size: 20px;
+    color: #443f3d;
+    text-decoration: none;
+}
