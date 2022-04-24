@@ -10,7 +10,7 @@
         <div id="ex1_s"></div>
         <div id="ex1_p"></div>
         <script>
-            var a, S, P;
+            let a, S, P;
             a = 31;
             S = a ** 2;
             P = 4 * a;
@@ -22,7 +22,7 @@
         <div id="ex2_s"></div>
         <div id="ex2_p"></div>
         <script>
-            var a2, S2, P2
+            let a2, S2, P2;
             a2 = 31;
             S2 = a2 ** 2
             P2 = 4 * a2
@@ -37,7 +37,8 @@
         <div id="ex3_p"></div>
         <input type="button" value="Отримати результат" onclick="ex3()">
         <script>
-            var a3, b3, S3, P3;
+            let a3, b3, S3, P3;
+
             function ex3() {
                 a3 = 31;
                 b3 = 55;
@@ -53,9 +54,9 @@
         <p><h3>4)Циклічний алгоритм (виведення значень методом document.write)<br>Намалювати N зірочек в стовпчик</h3>
         <div>Нехай N = 15, тоді:</div>
         <div id="ex4"></div>
-        <img src="ex4.png" width="700"><br>
+        <img src="ex4.png" width="700" alt=""><br>
         <script>
-            var n = 15, i;
+            let n = 15, i;
             for (i = 1; i <= n; i++){
                 document.write("*" + "<br>")
             }
@@ -64,12 +65,12 @@
 
         <p><h3>5)Циклічний алгоритм вкладені цикли (виведення значень методом document.write)<br>Намалювати * в N рядках кількість зірочок в кожному рядку = номеру рядка</h3>
         <div>Нехай N = 15, тоді:</div>
-        <div id="ex5" ></div>
-        <img src="ex5.png" width="700"><br>
+        <img src="ex5.png" width="700" alt="ex5"><br>
+        <div id="ex5"></div>
         <script>
-            var n = 15, i, j;
-            for (i = 1; i <= n; i++){
-                for (j = 1; j <= i; j++){
+            let n1 = 15, i1, j;
+            for (i1 = 1; i1 <= n1; i1++){
+                for (j = 1; j <= i1; j++){
                     document.write("*")
                 }
                 document.write("<br>")
