@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title></title>
+
+		<script type="text/javascript">
+			function fcs(){
+				alert("Картинка отримає рамку зеленого кольору та шириною 3 пікселя, а текст стане нормальним")
+				document.getElementById('pic1').style.border = "solid green 3px";
+				document.getElementById('text').style.fontWeight = "normal";
+			}
+
+			function msvr(){
+				alert("Картинка отримає рамку помаранчевого кольору та шириною 5 пікселів, а текст стане напівжирним")
+				document.getElementById('pic1').style.border = "solid orange 5px";
+				document.getElementById('text').style.fontWeight = "bold";
+
+			}
+		</script>
+
+	</head>
+
+	<body>
+
+		<img src="lab10.png" height="80"><br>
+
+		<img src="mouse.png" id="pic1" alt="Мишка" onfocus="fcs()" onmouseover= "msvr()"><br>
+			
+		<p id="text">text</p>
+
+		<form>
+			
+			<textarea id="text" onfocus="fcs()">
+
+		</form>
+
+	
+
+	</body>
+
+</html>
