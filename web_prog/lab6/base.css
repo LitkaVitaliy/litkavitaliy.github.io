@@ -4,6 +4,10 @@ body{
     padding: 0;
 }
 
+#iframe{
+    position: absolute;
+}
+
 #menu_right{
     background-color: #71553a;
     width:20%;
@@ -38,42 +42,6 @@ body{
     line-height: .7;
 }
 
-#img1{
-    position: absolute;
-    margin-top: 75px;
-    margin-left: 125px;
-}
-
-#img2{
-    position: absolute;
-    margin-top: 75px;
-    margin-left: 750px;
-}
-
-#img3{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 125px;
-}
-
-#img1_text{
-    position: absolute;
-    margin-top: 275px;
-    margin-left: 220px;
-}
-
-#img2_text{
-    position: absolute;
-    margin-top: 275px;
-    margin-left: 850px;
-}
-
-#img3_text{
-    position: absolute;
-    margin-top: 600px;
-    margin-left: 220px;
-}
-
 
 .img_text{
     font-family: Arial;
@@ -89,5 +57,7 @@ body{
     position: absolute;
     bottom: -120px;
     left: 0;
+
+
 }
 
